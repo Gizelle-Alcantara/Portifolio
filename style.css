@@ -1,0 +1,175 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    text-decoration: underline;
+    color: #070f18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+#menu{
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #070f18;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#botaoapres{
+    background: #1f7cff;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 24px;
+    text-align: center;
+    color: white;
+    padding: 10px 25px;
+}
+
+.apresentação{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+#cabeçalho h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+}
+
+#imagemprincipal{
+    margin-left: 42px;
+}
+
+#imagemprincipal img{
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+}
+
+#cliente{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cabeçalhoCliente{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070f18;
+}
+
+h2.red{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f75c4e;
+}
+
+h1.black{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.textoCentral{
+    text-align: center;
+}
+
+#serviços.textoCentral h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070f18;
+}
+
+#contImagem img{
+    width: 100%; /*ajustar tamanho da imagem no html*/
+}
+
+#infoContato{
+    margin-left: 75px;
+    text-align: left;
+}
+
+#contatos{
+    margin-top: 100px;
+}
+
+#infoContato input{
+    background: #f5f6fb;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0;
+    width: 70%;
+    padding: 15px 30px;
+}
+
+#tituloPortifolio{
+    margin-top: 150px;
+}
+
+.imagemPortifolio img{
+    width: 100%;
+}
+
+.imagemPortifolio{
+    padding: 20px;
+}
